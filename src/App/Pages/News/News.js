@@ -16,7 +16,7 @@ class News extends Component {
         this.globalLang = getLanguage(activelanguage, 'global');
 
         this.state = { 
-            currentTab: 0, 
+            currentTab: 1, 
             navigateTo: '', 
             news:[], 
             announcement:[], 
@@ -279,13 +279,13 @@ class News extends Component {
                                     </Col>
                                 )*/}
                                 
-                                <Col md="4" sm="4" xs="4" className={this.currentActiveTab(0)} onClick={() => this.changeTab(0)}>
+                                {/* <Col md="4" sm="4" xs="4" className={this.currentActiveTab(0)} onClick={() => this.changeTab(0)}>
                                     {this.language.community}
-                                </Col>
-                                <Col md="4" sm="4" xs="4" className={this.currentActiveTab(1)} onClick={() => this.changeTab(1)}>
+                                </Col> */}
+                                <Col md="6" sm="6" xs="6" className={this.currentActiveTab(1)} onClick={() => this.changeTab(1)}>
                                     {this.language.dynamax}
                                 </Col>
-                                <Col md="4" sm="4" xs="4" className={this.currentActiveTab(2)} onClick={() => this.changeTab(2)}>
+                                <Col md="6" sm="6" xs="6" className={this.currentActiveTab(2)} onClick={() => this.changeTab(2)}>
                                     {this.language.newsfeed}
                                 </Col>
                             </Row>

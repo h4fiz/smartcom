@@ -171,7 +171,7 @@ var Languages = {
             "history": 'History',
             "nodata": 'No data available',
             "community": 'Community',
-            "dynamax": 'Modern Land',
+            "dynamax": 'Jakarta Garden City',
             "newsfeed": 'Newsfeed'
         },
         "newsdetail": {
@@ -524,7 +524,7 @@ var Languages = {
             "history": '历史',
             "nodata":'没有可用数据',
             "community": '社区',
-            "dynamax": 'Dynamax',
+            "dynamax": 'Jakarta Garden City',
             "newsfeed": '新闻源'
         },
         "newsdetail": {

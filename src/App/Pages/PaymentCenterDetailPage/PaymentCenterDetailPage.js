@@ -161,13 +161,13 @@ class PaymentCenterDetailPage extends Component {
                     {/* <Button color="primary" className="fullbutton" onClick={() => this.doPay()}>{this.language.pay}</Button> */}
                     <Button color="primary" className="fullbutton" onClick={this.toggle}>{this.language.pay}</Button>
                     <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-                        <ModalHeader toggle={this.toggle}>Select Payment</ModalHeader>
-                        <ModalBody>
-                            <Row className="text-center">
+                        <ModalHeader toggle={this.toggle}>Coming Soon</ModalHeader>
+                        {/* <ModalBody>
+                            {<Row className="text-center">
                                 <Col xs="6"><Button color="secondary" size="lg" block onClick={() => this.openModalHandler()}>XENDIT</Button></Col>
                                 <Col xs="6"><Button color="primary" size="lg" block onClick={() => this.openModalBCA()}>BCA</Button></Col>
-                            </Row>                          
-                        </ModalBody>
+                            </Row>                           
+                        </ModalBody> */}
                     </Modal>
                 </div>
                 
