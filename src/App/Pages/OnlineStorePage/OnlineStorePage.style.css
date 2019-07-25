@@ -1,0 +1,17 @@
+.no-data{
+    height:150px;
+    line-height: 150px;
+    text-align: center;
+    color:#888;
+    font-size: 20px;
+}
+
+.online-column{
+}
+
+.online-category{
+    font-size: 12px !important;
+}
+.online-commodity{
+    font-size: 14px !important;
+}

@@ -1,0 +1,114 @@
+.service-detail{
+    background-color:#f2f2f2;
+}
+
+.service-detail-header{
+    background-color:#fff;
+}
+
+.service-detail-img-container{
+    text-align: center;
+    padding:10px;
+    height: 150px;
+    line-height: 150px;
+    vertical-align: middle;
+}
+.service-detail-img-container img{
+    max-height: 150px;
+    max-width: 150px;
+}
+.service-detail-name-container{
+    text-align: center;
+    font-size: 16px;
+    padding:20px;
+}
+.service-detail-name-container span.aboutus-link{
+    font-size: 12px; padding:2px; 
+    border:1px solid #00cc99;
+    color:#00cc99;
+    border-radius: 7px;
+}
+.service-detail-like-container{
+    text-align: center;
+    padding:4px;
+}
+.service-detail-like-container table{
+    margin:auto;
+}
+
+.service-detail-like-container td{
+    padding:2px 7px;
+    color:#8c8c8c;
+    font-size: 13px;
+    
+}
+.service-detail-tab-container{
+
+}
+.service-detail-tab-container table{
+    width:100%;
+}
+.service-detail-tab-container td{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.service-detail-tab-container .service-detail-tab-item{
+    
+    text-align: center;
+    border-right: 1px solid #d9d9d9;
+    height: 60px;
+}
+.service-detail-tab-container .tab-active{
+    color:#00cc99;
+    border-bottom:2px solid #00cc99;
+}
+.service-detail-tab-container .item-last{
+    border-right:0px;
+}
+.service-detail-tab-container .service-detail-tab-icon{
+    text-align: center;
+    font-size: 25px;
+}
+.service-detail-tab-container .service-detail-tab-name{
+    text-align: center;
+    font-size: 13px;
+}
+
+.service-detail-info{
+    background-color:#fff;
+    padding:10px 20px;
+    margin-top:10px;
+}
+.service-detail-info table{
+    width:100%;
+}
+
+.service-detail-info .column-field{
+    color:#8c8c8c;
+    padding:2px 4px;
+    padding-bottom:6px;
+    width:100px;
+}
+.service-detail-info .column-value{
+    color:#000;
+    padding:2px 4px;
+    padding-bottom:6px;
+}
+
+.service-detail-description{
+    background-color:#fff;
+    padding:10px 20px;
+    margin-top:10px;
+    font-size:13px;
+}
+.service-detail-description .description-label{
+    padding-bottom:15px;
+    font-size: 15px;
+    font-size: bold;
+} 
+
+.service-detail-list-container{
+    background-color:#fff;
+    padding:10px 20px;
+    margin-top:10px;
+}

@@ -1,0 +1,377 @@
+.room-reservation{
+    padding-top:10px;
+}
+
+.room-reservation .padding-container-left{
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px; 
+    padding-right:5px;
+}
+.room-reservation .padding-container-right{
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:5px; 
+    padding-right:10px;
+}
+
+.room-reservation .img-container{
+    text-align: center;
+    position: relative;
+    height: 150px;
+    background-color: #fff;
+    border:1px solid #d9d9d9;
+}
+.room-reservation .img-container img{
+    width:100%;
+    max-height: 150px;
+    margin: auto;
+}
+
+.room-reservation .img-container .name{
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding-top:2px;
+    padding-bottom:2px;
+    color:#ffffff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.room-list{
+    border-bottom:1px solid #d9d9d9;
+    background-color:#fff;
+}
+.room-list-col-dot{
+    padding:5px 10px;
+    text-align: center;
+    width:30px;
+    font-size: 9px;
+}
+
+.room-list-col1{
+    padding:15px 10px;
+}
+.room-list-col1 .room-name{
+    font-size: 16px;
+    color:#000;
+}
+.room-list-col1 .room-desc{
+    font-size: 13px;
+    color:#8c8c8c;
+}
+
+.room-list-col-price{
+    padding:10px;
+    text-align: right;
+    padding-right:20px;
+}
+.room-list-col-price .room-price{
+    font-size: 14px;
+    color:#4d4d4d;
+}
+
+.room-list-col-qty{
+    padding-right:10px;
+    width:90px;
+}
+.room-list-col-qty .room-btn{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color:#ff9900;
+    margin-top:-2px;
+}
+.room-list-col-qty .room-qty{
+    display: inline-block;
+    margin-right:3px;
+    margin-left:3px;
+    border:1px solid #d9d9d9;
+    width:30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.room-status-label{
+    color:#8c8c8c;
+    font-size: 13px;
+    text-align: center;
+}
+
+.room-status-value{
+    font-size: 16px;
+    text-align: center;   
+}
+
+.room-scroll-view{
+    position: absolute;
+    top:116px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow: auto;
+    background-color:#fafafa;
+}
+
+.room-footer{
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    background-color:#005ce6;
+    color:#fff;
+    font-size: 16px;
+    text-align: center;
+    height:50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.room-icons{
+    background-color:#fff;
+}
+
+.room-icons-container{
+    border-bottom:1px solid #d9d9d9;
+    overflow: auto;
+}
+
+.room-icon-column{
+
+}
+
+.room-link-label{
+    text-align: center;
+    padding:5px 10px;
+    font-size: 12px;
+    color:#8c8c8c;
+}
+
+.room-link-label img{
+    width:40px;
+    height:40px;
+}
+
+.rooms-list-col1 {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.rooms-list-col1 .room-name{
+    font-size:16px;
+}
+.rooms-list-col1 .room-checkin{
+    font-size:13px;
+    color:#8c8c8c;
+}
+.rooms-list-col1 .room-checkout{
+    font-size:13px;
+    color:#8c8c8c;
+}
+
+span.pending{
+	color:#00abff;
+}
+
+span.paid{
+    color: #ff8d00;
+}
+
+span.cancelled{
+    color: #c0c0c0;
+}
+
+.activity-reservation{
+    padding-top:10px;
+}
+
+.activity-reservation .padding-container-left{
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px; 
+    padding-right:5px;
+}
+.activity-reservation .padding-container-right{
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:5px; 
+    padding-right:10px;
+}
+
+.activity-reservation .img-container{
+    text-align: center;
+    position: relative;
+    height: 150px;
+    background-color: #fff;
+    border:1px solid #d9d9d9;
+}
+.activity-reservation .img-container img{
+    width:100%;
+    max-height: 150px;
+    margin: auto;
+}
+
+.activity-reservation .img-container .name{
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding-top:2px;
+    padding-bottom:2px;
+    color:#ffffff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.activity-list{
+    border-bottom:1px solid #d9d9d9;
+    background-color:#fff;
+}
+.activity-list-col-dot{
+    padding:5px 10px;
+    text-align: center;
+    width:30px;
+    font-size: 9px;
+}
+
+.activity-list-col1{
+    padding:15px 10px;
+}
+.activity-list-col1 .activity-name{
+    font-size: 16px;
+    color:#000;
+}
+.activity-list-col1 .activity-desc{
+    font-size: 13px;
+    color:#8c8c8c;
+}
+
+.activity-list-col-price{
+    padding:10px;
+    text-align: right;
+    padding-right:20px;
+}
+.activity-list-col-price .activity-price{
+    font-size: 14px;
+    color:#4d4d4d;
+}
+
+.activity-list-col-qty{
+    padding-right:10px;
+    width:90px;
+}
+.activity-list-col-qty .activity-btn{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color:#ff9900;
+    margin-top:-2px;
+}
+.activity-list-col-qty .activity-qty{
+    display: inline-block;
+    margin-right:3px;
+    margin-left:3px;
+    border:1px solid #d9d9d9;
+    width:30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.activity-status-label{
+    color:#8c8c8c;
+    font-size: 13px;
+    text-align: center;
+}
+
+.activity-status-value{
+    font-size: 16px;
+    text-align: center;   
+}
+
+.activity-scroll-view{
+    position: absolute;
+    top:116px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow: auto;
+    background-color:#fafafa;
+}
+
+.activity-footer{
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    background-color:#005ce6;
+    color:#fff;
+    font-size: 16px;
+    text-align: center;
+    height:50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.activity-icons{
+    background-color:#fff;
+}
+
+.activity-icons-container{
+    border-bottom:1px solid #d9d9d9;
+    overflow: auto;
+}
+
+.activity-icon-column{
+
+}
+
+.activity-link-label{
+    text-align: center;
+    padding:5px 10px;
+    font-size: 12px;
+    color:#8c8c8c;
+}
+
+.activity-link-label img{
+    width:40px;
+    height:40px;
+}
+
+.activities-list-col1 {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.activities-list-col1 .activity-name{
+    font-size:16px;
+}
+.activities-list-col1 .activity-checkin{
+    font-size:13px;
+    color:#8c8c8c;
+}
+.activities-list-col1 .activity-checkout{
+    font-size:13px;
+    color:#8c8c8c;
+}
+
+.activity-link-label{
+    text-align: center;
+    padding:5px 10px;
+    font-size: 12px;
+    color:#8c8c8c;
+}
+
+.activity-link-label img{
+    width:40px;
+    height:40px;
+}

@@ -1,0 +1,55 @@
+.marketplace-header{
+    width:100%;
+}
+
+img.marketplace-banner{
+    width:100%;
+}
+
+.map-container{
+    width:100%;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-top:1px solid #d9d9d9;
+    border-bottom:1px solid #d9d9d9;
+    background-color:#fff;
+    margin-bottom:10px;
+    height: 240px;
+}
+
+
+.adv-container{
+    /* padding-top:3px;
+    padding-bottom:3px; */
+    padding: 10px;
+    border-top:1px solid #d9d9d9;
+    border-bottom:1px solid #d9d9d9;
+    background-color: #fff;
+}
+
+.adv-container .adv{
+    margin-top: 3px;
+    margin-bottom:6px;
+    padding: 5px;
+}
+.adv-container .adv img{
+    width:100%;
+}
+
+.marketplace-icons-container{
+}
+.marketplace-icons-container::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.marketplace-icons-container .icon-column{
+    width:20%;
+    display: inline-block;
+    text-align: center;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.hidden{
+    display: none;
+}

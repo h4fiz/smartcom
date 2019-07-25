@@ -1,0 +1,52 @@
+
+.list-item .data-container2{
+    margin-left:90px;
+    padding-left:5px;
+    position: relative;
+    padding-bottom:10px;
+    border-bottom:1px solid #d9d9d9;
+}
+
+.list-item .imgitem-container2{
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:90px;
+    text-align: center;
+    padding-top:5px;
+
+}
+
+.list-item .imgitem-container2 img{
+    max-height:70px;
+    max-width:70px;
+    margin:auto;
+}
+
+.list-item .moments-name{
+    font-size: 15px !important;
+    color:#005580;
+    margin-bottom:8px;
+}
+.list-item .moments-desc{
+    font-size: 13px !important;
+    color:#666666;
+}
+
+.list-item .moments-date{
+    font-size: 12px !important;
+    color:#666666;
+}
+
+.moments-texbox{
+    margin-bottom:5px;
+}
+
+.btn-addcomment{
+    font-size: 13px !important;
+}
+
+.moments-comment{
+    margin-top:10px;
+}
+

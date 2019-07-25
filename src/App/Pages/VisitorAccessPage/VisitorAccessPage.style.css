@@ -1,0 +1,35 @@
+.no-data{
+    height:150px;
+    line-height: 150px;
+    text-align: center;
+    color:#888;
+    font-size: 20px;
+}
+
+.payment-scroll-view{
+    position: absolute;
+    top:50px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow: auto;
+    background-color:#fff;
+}
+
+.payment-link-label{
+    text-align: center;
+    padding:5px 10px;
+    font-size: 12px;
+    color:#8c8c8c;
+}
+.payment-link-label img{
+    width:40px;
+    height:40px;
+}
+table.table-icon{
+    width:inherit;
+}
+
+.payment-link-active{
+    color:#00abff !important;
+}

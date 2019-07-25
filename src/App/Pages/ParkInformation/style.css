@@ -1,0 +1,46 @@
+.park-introduction{
+    background-color:#fff;
+}
+
+.park-introduction .tab-section{
+    padding-top:0px !important;
+    background-color:#fff;
+    border-bottom:1px solid #d9d9d9;
+    height:40px;
+}
+.park-introduction .tab-section .tab-item{
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+    color:#bfbfbf;
+    height:39px;
+    line-height: 39px;
+    padding-bottom:0px !important;
+}
+.park-introduction .tab-section .active-tab{
+    color:#0066ff;
+    border-bottom:2px solid #0066ff;
+}
+
+.park-introduction .body-section{
+    padding:10px;
+}
+
+.park-introduction .img-container{
+    width: 100%;
+    margin-bottom:10px;
+}
+.park-introduction .img-container img{
+    width: 100%;
+}
+.park-introduction .title{
+    padding:2px;
+    color:#000;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+.park-introduction .description{
+    padding:2px;
+    color:#000;
+    font-size:14px;
+}

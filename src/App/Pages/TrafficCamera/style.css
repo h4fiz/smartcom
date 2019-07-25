@@ -1,0 +1,15 @@
+.traffic-camera{
+    padding:20px;
+}
+
+.traffic-camera .camera-container{
+    border:1px solid #d9d9d9;
+}
+.traffic-camera .camera-container .camera-header{
+    background-color:#3399ff;
+    color:#fff;
+    padding:2px 10px;
+}
+.traffic-camera .camera-container .camera-body{
+    
+}

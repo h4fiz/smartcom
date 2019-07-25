@@ -1,0 +1,45 @@
+.adv-title{
+    color:#333;
+    padding:5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.adv-content{
+    padding:0px;
+}
+
+/*example1: using background image
+The best way to do this is to use position:absolute to child span of parent anchor.*/
+
+a.notif {
+  position: relative;
+  display: block;
+  height: 50px;
+  width: 50px;
+  background: url('http://i.imgur.com/evpC48G.png');
+  background-size: contain;
+  text-decoration: none;
+}
+.num {
+  position: absolute;
+  right: 11px;
+  top: 6px;
+  color: #fff;
+}
+.link-label .moment-icon {
+	display: inline-block;
+	position: relative;
+}
+.link-label .moment-icon .fa-moment {
+	position: absolute;
+    top: 0px;
+    right: -2px;
+    height: 15px;
+    width: 15px;
+    background-color: red;
+}
+span.num {
+    font-size: 12px !important;
+    top: 0px;
+    right: 1px;
+}

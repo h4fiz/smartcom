@@ -1,0 +1,47 @@
+.directory-category-page{
+    background-color:#fff;
+}
+
+.directorycategory-icons-container{
+}
+.directorycategory-icons-container::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.directorycategory-icons-container .directorycategory-icon-column{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    margin-top:10px;
+    margin-bottom:5px;
+}
+
+.category-left-column{
+    padding-left:20px; 
+    padding-right:10px;
+}
+.category-right-column{
+    padding-left:10px;
+    padding-right:20px;
+}
+
+.directory-category-content{
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,.2);
+    border-radius:10px;
+    overflow: hidden;
+}
+
+.directorycategory-link-label img.image-250 {
+    width: 100%;
+}
+
+.directorycategory-link-label{
+    
+}
+
+.directory-category-label-name{
+    font-size: 15px;
+    padding:5px;
+    color:#4d4d4d; 
+}

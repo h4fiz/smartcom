@@ -1,0 +1,125 @@
+.no-data{
+    height:150px;
+    line-height: 150px;
+    text-align: center;
+    color:#888;
+    font-size: 20px;
+}
+
+.pad{
+	padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.fullbutton{
+    width:100%;
+}
+
+label {
+  padding: 8px;
+}
+
+.payment-page{
+    background-color:#fff;
+}
+
+.payment-title{
+    text-align: center;
+    font-size: 22px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.payment-amount{
+    text-align:center;
+    color:#e60000;
+    font-size: 24px;
+    position: relative;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.payment-amount-label{
+    position: absolute;
+    left:20px;
+    top:13px;
+    font-size: 14px;
+    color:#4d4d4d;
+}
+
+.payment-issuedate{
+    font-size: 12px;
+    text-align: center;
+    padding:5px;
+    color:#999999;
+}
+
+table.payment-info-container{
+    width:100%;
+    border-collapse: collapse;
+    border-top:1px solid #d9d9d9;
+    margin-top:10px;
+}
+table.payment-info-container tr{
+    border-bottom:1px solid #d9d9d9;
+}
+table.payment-info-container td{
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 20px;
+    padding-right:20px;
+    font-size: 14px;
+    background-color:#fcfcfc;
+    color:#4d4d4d;
+}
+table.payment-info-container td.payment-info-value{
+    text-align: right;
+    color:#333333;
+    font-size: 15px;
+}
+
+.payment-button-container{
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+.payment-button-container button{
+    border-radius:0px;
+    height:50px;
+}
+
+.pending{
+    color:#ff8d00 !important;
+}
+
+.paid{
+    color:#0066ff !important;
+}
+.modal_payment{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+} 
+.formpayment{
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.labelpayment{
+    margin-bottom: 0rem;
+    font-weight: 350;
+
+}

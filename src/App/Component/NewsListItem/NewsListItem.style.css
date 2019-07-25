@@ -1,0 +1,16 @@
+.list-item .relative-container .imgitem-container img{
+    height:80px;
+    width:80px;
+    margin:auto;
+}
+
+.list-item .relative-container .imgitem-container{
+    position: absolute;
+    left:0px;
+    top:-10px;
+    width:90px;
+    height:90px;
+    vertical-align: middle;
+    text-align: center;
+
+}

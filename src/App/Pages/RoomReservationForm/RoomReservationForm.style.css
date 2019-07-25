@@ -1,0 +1,64 @@
+.service-center-form-title{
+    font-size: 18px;
+    text-align: center;
+    padding:10px;
+    padding-top:20px;
+    color:#005ce6;
+}
+
+.service-center-form{
+    padding:0px;
+    position: absolute;
+    top:45px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    overflow: auto;
+    background-color:#ffffff;
+}
+
+.field-container{
+    background-color:#fff;
+    padding:5px 20px;
+    padding-top:10px;
+}
+
+.field-container .field-label{
+    color:#666;
+    font-size: 14px;
+    margin-bottom:5px;
+}
+.field-container .field-value{
+    
+}
+
+.field-container .field-value .time{
+    text-align: center;
+}
+
+.field-container .field-value input,select, textarea{
+    border:0px;
+    border-bottom:1px solid #d9d9d9 !important;
+    border-radius: 0px;
+    background-color:#fcfcfc;
+    padding:5px;
+    width:100%;
+}
+
+select.service-select{
+    width:100%;
+    padding:0px;
+    text-align:right;
+}
+select.service-select option{
+    text-align:right;
+}
+.field-container .react-datepicker-wrapper{
+    display: inherit;
+}
+.field-container .react-datepicker__input-container{
+    display: inherit;
+}
+.date-picker{
+    width:100%;
+}

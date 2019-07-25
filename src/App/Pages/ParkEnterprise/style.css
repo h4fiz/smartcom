@@ -1,0 +1,93 @@
+.park-enterprise{
+    background-color:#fff;
+}
+
+.park-enterprise .tab-section{
+    padding-top:0px !important;
+    background-color:#fff;
+    border-bottom:1px solid #d9d9d9;
+    height:40px;
+}
+.park-enterprise .tab-section .tab-item{
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+    color:#bfbfbf;
+    height:39px;
+    line-height: 39px;
+    padding-bottom:0px !important;
+}
+.park-enterprise .tab-section .active-tab{
+    color:#0066ff;
+    border-bottom:2px solid #0066ff;
+}
+
+.park-enterprise .body-section{
+    padding:10px;
+}
+
+.park-enterprise .img-container{
+    width: 100%;
+    margin-bottom:10px;
+}
+.park-enterprise .img-container img{
+    width: 100%;
+}
+.park-enterprise .list .title{
+    padding:2px;
+    color:#000;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom:5px;
+}
+.park-enterprise .list {
+    border-bottom:1px solid #d9d9d9;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.park-enterprise .list .time{
+    color:#b3b3b3;
+    font-size: 12px;
+    margin-top:3px;
+    
+}
+.park-enterprise .title{
+    padding:2px;
+    color:#000;
+    font-weight: bold;
+    margin-bottom:10px;
+}
+.park-enterprise .description{
+    padding:2px;
+    color:#000;
+    font-size: 14px;
+}
+.park-enterprise .table-contact{
+    width:100%;
+}
+.park-enterprise .table-contact td{
+    padding:10px 3px;
+    border-bottom:1px solid #d9d9d9;
+}
+.park-enterprise img.contact-pic{
+    width:35px;
+    height:35px;
+    border-radius:50%;
+}
+.park-enterprise td.column-pic{
+    width:60px;
+}
+.park-enterprise td.column-icon{
+    width:40px;
+}
+.park-enterprise td.column-icon img{
+    width:35px;
+}
+
+.park-enterprise .contact-name{
+    font-size: 14px;
+}
+.park-enterprise .contact-position{
+    font-size: 13px;
+    color:#808080;
+}

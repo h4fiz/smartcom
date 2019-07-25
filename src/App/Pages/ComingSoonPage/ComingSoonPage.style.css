@@ -1,0 +1,10 @@
+.coming-soon{}
+
+.coming-soon .coming-soon-content{
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+    vertical-align: middle;
+    color: #808080;
+    font-size:22px; 
+}

@@ -1,0 +1,115 @@
+.company-profile{
+    background-color:#f2f2f2;
+}
+
+.company-profile-header{
+    background-color:#fff;
+}
+
+.company-profile-img-container{
+    text-align: center;
+    padding:10px;
+    height: 150px;
+    line-height: 150px;
+    vertical-align: middle;
+}
+.company-profile-img-container img{
+    max-height: 150px;
+    max-width: 150px;
+}
+.company-profile-name-container{
+    text-align: center;
+    font-size: 16px;
+}
+.company-profile-name-container span.aboutus-link{
+    font-size: 12px; padding:2px; 
+    border:1px solid #00cc99;
+    color:#00cc99;
+    border-radius: 7px;
+}
+.company-profile-like-container{
+    text-align: center;
+    padding:4px;
+}
+.company-profile-like-container table{
+    margin:auto;
+}
+
+.company-profile-like-container td{
+    padding:2px 7px;
+    color:#8c8c8c;
+    font-size: 13px;
+    
+}
+.company-profile-tab-container{
+
+}
+.company-profile-tab-container table{
+    width:100%;
+}
+.company-profile-tab-container td{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.company-profile-tab-container .company-profile-tab-item{
+    
+    text-align: center;
+    border-right: 1px solid #d9d9d9;
+    height: 60px;
+}
+.company-profile-tab-container .tab-active{
+    color:#00cc99;
+    border-bottom:2px solid #00cc99;
+}
+.company-profile-tab-container .item-last{
+    border-right:0px;
+}
+.company-profile-tab-container .company-profile-tab-icon{
+    text-align: center;
+    font-size: 25px;
+}
+.company-profile-tab-container .company-profile-tab-name{
+    text-align: center;
+    font-size: 13px;
+}
+
+.company-profile-info{
+    background-color:#fff;
+    padding:10px 20px;
+    margin-top:10px;
+}
+.company-profile-info table{
+    width:100%;
+}
+
+.company-profile-info .column-field{
+    color:#8c8c8c;
+    padding:2px 4px;
+    padding-bottom:6px;
+    width:100px;
+    font-size:14px;
+}
+.company-profile-info .column-value{
+    color:#000;
+    padding:2px 4px;
+    padding-bottom:6px;
+    font-size:14px;
+}
+
+.company-profile-description{
+    background-color:#fff;
+    padding:10px 20px;
+    margin-top:10px;
+    font-size:13px;
+}
+.company-profile-description .description-label{
+    padding-bottom:15px;
+    font-size: 15px;
+    font-size: bold;
+} 
+
+.company-profile-list-container{
+    background-color:#fff;
+    padding:10px 20px;
+    margin-top:10px;
+}

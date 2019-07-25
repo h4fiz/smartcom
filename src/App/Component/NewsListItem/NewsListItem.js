@@ -1,0 +1,78 @@
+import React, { Component } from 'react';
+import { Container, Row, Col } from 'reactstrap';
+import './NewsListItem.style.css';
+
+class NewsListItem extends Component {
+
+    constructor(props) {
+        super(props);
+        this.state = { 
+            title : props.title, 
+            category: props.category,
+            shortDesc: props.shortdesc,
+            tags: props.tags === undefined ? [] : props.tags,   //array
+            pic: props.pic 
+        };
+    }
+
+    componentDidMount=()=>{
+
+    }
+
+    componentWillReceiveProps=(props)=>{
+        this.setState({title : props.title, 
+            category: props.category,
+            shortDesc: props.shortdesc,
+            tags: props.tags === undefined ? [] : props.tags,   //array
+            pic: props.pic });
+    }
+
+
+    renderCategory=()=>{
+        if(this.state.category !== undefined && this.state.category !== ''){
+            return (
+                <div className="category">{this.state.category}</div>
+            )
+        }
+    }
+
+    renderPicture=()=>{
+        if(this.state.pic !== ''){
+            return (
+                <div className="imgitem-container">
+                    <img src={this.state.pic} alt={'imgpic'}/>
+                </div>
+            )
+        }else{
+            return (
+                <div className="imgitem-container">
+                    <img src={require('../../../images/default.png')} alt={'imgpic'} className="imgdefault"/>
+                </div>
+            )
+        }
+    }
+
+    render() {
+        return(
+            <div className="list-item">
+                <div className="relative-container">
+                    {this.renderPicture()}
+                    <div className="data-container">
+                        <div className="name-container">{this.renderCategory()} {this.state.title}</div>
+                        <div className="shortdesc-container" dangerouslySetInnerHTML={{__html: this.state.shortDesc}}></div>
+                        <div className="tags-container">
+                            {
+                                this.state.tags.map((tag,i)=>{
+                                    if(tag !== '')
+                                        return <div key={i} className="tag">{tag}</div>
+                                })
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+}
+
+export default NewsListItem;

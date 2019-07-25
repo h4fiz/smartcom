@@ -1,0 +1,59 @@
+.picture-container{
+    margin-top:3px;
+    padding:3px 0px;
+}
+
+.picture-container .custom-col{   
+    padding:2px;    
+    overflow: hidden;
+}
+
+.picture-container .multi-image{   
+    width:100%;
+}
+.showcase-container{
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    background-color:rgba(0,0,0,1);
+    padding:20px;
+    z-index: 2000;
+    overflow: auto;
+    text-align: center;
+    
+}
+
+.showcase-container .middle-container{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+}
+.showcase-container .middle-container table{
+    width: inherit;
+}
+
+.showcase-container img{
+    
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+
+.showcase-container .close-container{
+    position: absolute;
+    top:10px;
+    right:20px;
+    display: inline-block;
+    
+}
+.showcase-container .close-container .close-icon{
+    color:#fff;
+    font-size: 30px;
+    
+}
+

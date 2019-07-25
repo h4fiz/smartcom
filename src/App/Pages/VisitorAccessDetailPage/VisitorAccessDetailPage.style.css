@@ -1,0 +1,100 @@
+.no-data{
+    height:150px;
+    line-height: 150px;
+    text-align: center;
+    color:#888;
+    font-size: 20px;
+}
+
+.pad{
+	padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.fullbutton{
+    width:100%;
+}
+
+label {
+  padding: 8px;
+}
+
+.uservisit-page{
+    background-color:#fff;
+}
+
+.uservisit-title{
+    text-align: center;
+    font-size: 22px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.uservisit-amount{
+    text-align:center;
+    color:#e60000;
+    font-size: 24px;
+    position: relative;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.uservisit-amount-label{
+    position: absolute;
+    left:20px;
+    top:13px;
+    font-size: 14px;
+    color:#4d4d4d;
+}
+
+.uservisit-issuedate{
+    font-size: 12px;
+    text-align: center;
+    padding:5px;
+    color:#999999;
+}
+
+table.uservisit-info-container{
+    width:100%;
+    border-collapse: collapse;
+    border-top:1px solid #d9d9d9;
+    margin-top:10px;
+}
+table.uservisit-info-container tr{
+    border-bottom:1px solid #d9d9d9;
+}
+table.uservisit-info-container td{
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 20px;
+    padding-right:20px;
+    font-size: 14px;
+    background-color:#fcfcfc;
+    color:#4d4d4d;
+}
+table.uservisit-info-container td.uservisit-info-value{
+    text-align: right;
+    color:#333333;
+    font-size: 15px;
+}
+
+.uservisit-button-container{
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    right:0px;
+}
+.uservisit-button-container button{
+    border-radius:0px;
+    height:50px;
+}
+
+.pending{
+    color:#ff8d00 !important;
+}
+
+.paid{
+    color:#0066ff !important;
+}

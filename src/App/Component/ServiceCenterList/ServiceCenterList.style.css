@@ -1,0 +1,65 @@
+.addon-item .relative-container  {
+    margin-bottom:10px;
+    position:relative;
+}
+
+.addon-item .relative-container .name-container{
+    /*font-size: 18px !important;*/
+    font-weight: bold;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.addon-item .relative-container .qty-container{
+    position: absolute;
+    right:10px;
+    /*bottom:10px;*/
+    text-align:center;
+    display: inline-block;
+    height:24px;
+}
+.addon-item .relative-container .qty-container .qty-value{
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    padding-left:3px;
+    padding-right:3px;
+    background-color:#ffffff;
+	vertical-align: middle;
+    float:right;
+    width:24px;
+}
+.addon-item .relative-container .qty-container .plus-minus-button{
+    width:100px;
+	display: inline-block;
+	text-align: center;
+}
+.addon-item .relative-container .qty-container .plus-minus-button .plus-button{
+    border-radius:50%;
+    height:24px;
+    width:24px;
+    line-height: 24px;
+    vertical-align: middle;
+    background-color:#B0E0E6;
+    color:#000;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    float:right;
+    margin-left:10px;
+    
+}
+.addon-item .relative-container .qty-container .plus-minus-button .minus-button{
+    border-radius:50%;
+    height:24px;
+    width:24px;
+    line-height: 24px;
+    vertical-align: middle;
+    background-color:#B0E0E6;
+    color:#000;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    float: right;
+	margin-right:10px;
+}

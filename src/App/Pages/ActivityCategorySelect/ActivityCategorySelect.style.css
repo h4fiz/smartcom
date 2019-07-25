@@ -1,0 +1,38 @@
+.activity-category-page{
+    background-color:#fff;
+}
+
+.activityategory-icons-container{
+}
+.activitycategory-icons-container::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.activitycategory-icons-container .activitycategory-icon-column{
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    margin-top:10px;
+    margin-bottom:5px;
+}
+
+.activity-category-content{
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,.2);
+    border-radius:10px;
+    overflow: hidden;
+}
+
+.activitycategory-link-label img.image-250 {
+    width: 100%;
+}
+
+.activitycategory-link-label{
+    
+}
+
+.activity-category-label-name{
+    font-size: 15px;
+    padding:5px;
+    color:#4d4d4d; 
+}

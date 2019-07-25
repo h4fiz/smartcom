@@ -1,0 +1,188 @@
+.list-item .commodity-name{
+    /*font-size: 18px !important;*/
+    font-weight: bold;
+}
+
+.list-item .commodity-imgitem-container{
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:80px;
+    height:80px;
+    line-height: 80px;
+    /*border:1px solid #d9d9d9;*/
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.list-item .commodity-imgitem-container img{
+    max-height:80px;
+    max-width:80px;
+    margin:auto;
+}
+
+.list-item .data-container .commodity-tags-container{
+    padding-left:0px;
+}
+.list-item .data-container .commodity-tags-container .tag{
+    font-size: 12px;
+    background-color:#f2f2f2;
+    color:#808080;
+    display: inline;
+    padding:1px 5px;
+    border-radius: 0px;
+    margin-right:3px;
+
+}
+
+.list-item .commodity-price-container{
+    color:#ff9933;
+    font-size: 14px;
+    max-height: 38px;
+    overflow: auto;
+}
+
+.list-item .commodity-price-container span{
+    font-size: 16px;
+}
+.list-item .commodity-price-container span.stroke-price{
+    font-size: 12px;
+    color:#cccccc;
+    text-decoration: line-through;
+}
+
+.list-item .commodity-sold-container{
+    font-size:12px;
+    color:#a6a6a6;
+    margin-top:5px;
+}
+
+.list-item .qty-container{
+    
+    position: absolute;
+    right:10px;
+    bottom:10px;
+    text-align:center;
+}
+.list-item .qty-container .qty-value{
+    text-align: center;
+    
+    display: inline-block;
+    margin: auto;
+    padding-left:3px;
+    padding-right:3px;
+    background-color:#e6e6e6;
+}
+.list-item .qty-container .plus-minus-button{
+    width:60px;
+}
+.list-item .qty-container .plus-minus-button .plus-button{
+    border-radius:50%;
+    height:24px;
+    width:24px;
+    line-height: 24px;
+    vertical-align: middle;
+    background-color:#ff9933;
+    color:#000;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    float:right;
+    margin-left:10px;
+    
+}
+.list-item .qty-container .plus-minus-button .minus-button{
+    border-radius:50%;
+    height:24px;
+    width:24px;
+    line-height: 24px;
+    vertical-align: middle;
+    background-color:#ff9933;
+    color:#000;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    float: right;
+}
+
+.list-item .commodity-data-container{
+    border-bottom:0px;
+    margin-bottom:10px;
+}
+.list-item .commodity-data-container td.qty-col{
+    text-align: center;
+    width:40px;
+}
+.list-item .commodity-data-container .qty-label{
+    font-size:14px;
+    color:#808080;
+}
+.list-item .commodity-data-container td.subtotal-col{
+    text-align: right;
+    width:100px;
+    padding-right:10px;
+}
+.list-item .commodity-data-container .price-amount{
+    font-size: 14px;
+    color:#ff9933;
+}
+.list-item .commodity-data-container .qty-amount{
+    font-size: 15px;
+    color:#808080;
+}
+.list-item .commodity-data-container .subtotal-amount{
+    font-size: 14px;
+    color:#808080;
+}
+
+.list-item .commodity-cart-container{
+    height:84px !important;
+}
+
+.list-item .relative-container .qty-col .plus-minus-button{
+    width:100px;
+	display: inline-block;
+	text-align: center;
+}
+
+.list-item .relative-container .qty-col .plus-minus-button .qty-value{
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    padding-left:3px;
+    padding-right:3px;
+    background-color:#ffffff;
+	vertical-align: middle;
+	float:right;
+}
+
+.list-item .relative-container .qty-col .plus-minus-button .plus-button{
+    border-radius:50%;
+    height:24px;
+    width:24px;
+    line-height: 24px;
+    vertical-align: middle;
+    background-color:#ff9933;
+    color:#000;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    float:right;
+    margin-left:10px;
+    
+}
+.list-item .relative-container .qty-col .plus-minus-button .minus-button{
+    border-radius:50%;
+    height:24px;
+    width:24px;
+    line-height: 24px;
+    vertical-align: middle;
+    background-color:#ff9933;
+    color:#000;
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    float: right;
+	margin-right:10px;
+}

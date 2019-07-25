@@ -1,0 +1,36 @@
+.service-center-confirmation{
+    padding:10px;
+    position: absolute;
+    top:45px;
+    bottom:40px;
+    left:0px;
+    right:0px;
+    overflow: auto;
+    height: inherit;
+}
+
+.service-center-confirmation .sc-form-label{
+    color:#8c8c8c;
+    margin-top:10px;
+}
+
+.service-center-confirmation .sc-form-input {
+    border: 1px solid #d9d9d9;
+}
+
+.service-center-confirmation .sc-form-input input, textarea{
+    padding:3px 10px;
+    width: 100%;
+}
+
+
+.next-button{
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    color:#fff;
+    background-color:#005ce6;
+    padding:8px;
+    text-align: center;
+}

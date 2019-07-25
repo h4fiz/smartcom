@@ -1,0 +1,95 @@
+
+.list-item{
+    width:100%;
+    padding-top:10px;
+    padding-bottom:0px;
+    padding-left:5px;
+    padding-right:5px;
+    /*border-bottom:1px solid #d9d9d9;*/
+}
+
+.list-item .relative-container{
+    position: relative;
+    
+}
+
+.list-item .imgitem-container{
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:90px;
+    height:100px;
+    line-height: 100px;
+    /*border:1px solid #d9d9d9;*/
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.list-item .imgitem-container img{
+    max-height:80px;
+    max-width:80px;
+    margin:auto;
+}
+.list-item .data-container{
+    margin-left:90px;
+    height:110px;
+    padding-left:5px;
+    position: relative;
+    padding-bottom:10px;
+    border-bottom:1px solid #d9d9d9;
+    /*overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;*/
+}
+
+.list-item .full-left{
+    margin-left:0px;
+}
+
+.list-item .data-container .name-container{
+    color:#333;
+    font-size: 14px;
+    /*text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;*/
+    vertical-align: top;
+    display: inline;
+}
+.list-item .data-container .name-container .category{
+    color:#fff;
+    background-color:#00cc99;
+    display: inline-block;
+    padding:0px 1px;
+    margin-right:5px;
+    font-size: 12px;
+    max-width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.list-item .data-container .shortdesc-container{
+    color:#999999;
+    font-size: 12px;
+    height:55px;
+    text-overflow: inherit;
+    overflow: hidden;
+    white-space: normal;
+}
+.list-item .data-container .tags-container{
+    position: absolute;
+    bottom:8px;
+    left:0px;
+    right:0px;
+    padding-left:5px;
+}
+.list-item .data-container .tags-container .tag{
+    font-size: 12px;
+    background-color:#e6e6e6;
+    color:#808080;
+    display: inline;
+    padding:3px 10px;
+    border-radius: 10px;
+    margin-right:3px;
+
+}
